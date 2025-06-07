@@ -1,0 +1,18 @@
+/* src/app/components/custom-scrollbar.css */
+.custom-dark-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #222831 #111;
+  }
+  
+  .custom-dark-scrollbar::-webkit-scrollbar {
+    height: 8px;
+    background: #111;
+  }
+  .custom-dark-scrollbar::-webkit-scrollbar-thumb {
+    background: #222831;
+    border-radius: 8px;
+  }
+  .custom-dark-scrollbar::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
