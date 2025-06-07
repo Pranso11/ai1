@@ -8,10 +8,10 @@ export const metadata = {
     siteName: 'Pranso AI',
     images: [
       {
-        url: 'https://ai1-dun.vercel.app/preview.png',
-        width: 1200,
-        height: 630,
-        alt: 'Pranso AI preview',
+        url: 'https://www.microsoft.com/en-us/research/wp-content/uploads/2023/03/AI_Microsoft_Research_Thumbnail_1400x788.png',
+        width: 1400,
+        height: 788,
+        alt: 'Microsoft AI Research Thumbnail',
       },
     ],
     type: 'website',
@@ -20,9 +20,10 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'Pranso AI - Transforming Business with AI Solutions',
     description: 'Discover how AI can enhance your business efficiency.',
-    images: ['https://ai1-dun.vercel.app/preview.png'],
+    images: ['https://www.microsoft.com/en-us/research/wp-content/uploads/2023/03/AI_Microsoft_Research_Thumbnail_1400x788.png'],
   },
 };
+
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
