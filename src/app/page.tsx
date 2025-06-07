@@ -1,3 +1,29 @@
+export const metadata = {
+  title: 'Pranso AI - Transforming Business with AI Solutions',
+  description: 'Discover how AI can enhance your business efficiency.',
+  openGraph: {
+    title: 'Pranso AI - Transforming Business with AI Solutions',
+    description: 'Discover how AI can enhance your business efficiency.',
+    url: 'https://ai1-dun.vercel.app/',
+    siteName: 'Pranso AI',
+    images: [
+      {
+        url: 'https://ai1-dun.vercel.app/preview.png',
+        width: 1200,
+        height: 630,
+        alt: 'Pranso AI preview',
+      },
+    ],
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Pranso AI - Transforming Business with AI Solutions',
+    description: 'Discover how AI can enhance your business efficiency.',
+    images: ['https://ai1-dun.vercel.app/preview.png'],
+  },
+};
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
